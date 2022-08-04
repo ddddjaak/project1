@@ -1,7 +1,7 @@
 {
     "editor.fontSize": 17,
     //"workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Noctis Viola",
+    "workbench.colorTheme": "Quiet Light",
     "editor.minimap.enabled": true,
     "C_Cpp.autocomplete": "Default",
     "[cpp]": {
@@ -65,5 +65,17 @@
         "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
     },
-    "terminal.integrated.defaultProfile.windows": "PowerShell"
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "bit": "cpp",
+        "*.tcc": "cpp",
+        "functional": "cpp",
+        "string_view": "cpp",
+        "random": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "numeric": "cpp"
+    }
 }
